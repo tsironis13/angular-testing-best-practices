@@ -20,8 +20,7 @@
             "outputPath": "dist/angular-testing-best-practices",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
+            "polyfills": [              
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -80,8 +79,7 @@
           "builder": "@angular/build:karma",
           "options": {
             "polyfills": [
-              "zone.js",
-              "zone.js/testing"
+              
             ],
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
